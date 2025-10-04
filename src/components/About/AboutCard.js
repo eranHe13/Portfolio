@@ -32,8 +32,8 @@ function AboutCard() {
             <br />
             I hold a BSc in Computer Science from Tel Hai Academic College, where I built the foundation for my work in software development and artificial intelligence.
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            
+            
           </p>
           
           <p style={{ color: "rgb(155 126 172)" }}>

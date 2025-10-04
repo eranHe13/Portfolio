@@ -25,6 +25,11 @@ function Home() {
                 <strong className="main-name"> Eran Helvitz</strong>
               </h1>
 
+              <div className="job-status-badge">
+                <span className="status-icon">💻</span>
+                <span className="status-text">Open to Work</span>
+              </div>
+
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>

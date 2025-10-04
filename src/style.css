@@ -291,6 +291,76 @@ button:focus {
   color: #cd5ff8;
 }
 
+/* Job Status Badge */
+.job-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  margin-left: 45px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, rgba(199, 112, 240, 0.2), rgba(190, 106, 223, 0.15));
+  border: 2px solid rgba(199, 112, 240, 0.6);
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  animation: pulse-glow 2s ease-in-out infinite;
+  transition: all 0.3s ease;
+}
+
+.job-status-badge:hover {
+  transform: translateY(-2px);
+  border-color: rgba(199, 112, 240, 1);
+  box-shadow: 0 8px 20px rgba(199, 112, 240, 0.4);
+  animation: none;
+}
+
+.status-icon {
+  font-size: 1.3em;
+  animation: bounce-icon 2s ease-in-out infinite;
+}
+
+.status-text {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #c770f0;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(199, 112, 240, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(199, 112, 240, 0.6);
+  }
+}
+
+@keyframes bounce-icon {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+@media (max-width: 767px) {
+  .job-status-badge {
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  
+  .status-text {
+    font-size: 1em;
+  }
+  
+  .status-icon {
+    font-size: 1.1em;
+  }
+}
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #be6adf !important;

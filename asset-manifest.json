@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6343c30f.css",
+    "main.js": "/Portfolio/static/js/main.56949cc4.js",
+    "static/media/Eran Helvitz_CV.pdf": "/Portfolio/static/media/Eran Helvitz_CV.fc8eacc63b323913081b.pdf",
+    "static/media/hero_img.jpg": "/Portfolio/static/media/hero_img.a0cdc55717afdfbf4f3d.jpg",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/basketball-illustration-5-svgrepo-com.svg": "/Portfolio/static/media/basketball-illustration-5-svgrepo-com.26c951dd571da80771d716e1fc451b47.svg",
+    "static/media/travelling-by-airplane-around-the-earth-svgrepo-com.svg": "/Portfolio/static/media/travelling-by-airplane-around-the-earth-svgrepo-com.05408e7f634dafb1d91fd0d6907df37a.svg",
+    "static/media/chess-svgrepo-com.svg": "/Portfolio/static/media/chess-svgrepo-com.631b2202b9c9042dd92e56e100a7ad03.svg",
+    "static/media/snowboard-svgrepo-com.svg": "/Portfolio/static/media/snowboard-svgrepo-com.5d4c88b39507756231a7592e3c9a6a1c.svg",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/diving-3-svgrepo-com.svg": "/Portfolio/static/media/diving-3-svgrepo-com.b53a138c7f587237397cf41291d7b640.svg",
+    "static/media/icons-fly.io.svg": "/Portfolio/static/media/icons-fly.io.8b12031870fca9ac37df8c1e50aafce7.svg",
+    "static/media/dancing-motion-svgrepo-com.svg": "/Portfolio/static/media/dancing-motion-svgrepo-com.c1f1ab6c912fc4827a890f279114073f.svg",
+    "static/media/icons-claude-ai.svg": "/Portfolio/static/media/icons-claude-ai.bb1ddac23232a80ece64b0ca9f44f07a.svg",
+    "static/media/icons-cursor-ai.svg": "/Portfolio/static/media/icons-cursor-ai.7c1008c52e1ff3e6ffbd42a0bcd2eac0.svg",
+    "static/media/code-tech-dev-svgrepo-com.svg": "/Portfolio/static/media/code-tech-dev-svgrepo-com.7bd03c1f9f76c937d6d00708fa0cec46.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.6343c30f.css.map": "/Portfolio/static/css/main.6343c30f.css.map",
+    "main.56949cc4.js.map": "/Portfolio/static/js/main.56949cc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6343c30f.css",
+    "static/js/main.56949cc4.js"
+  ]
+}

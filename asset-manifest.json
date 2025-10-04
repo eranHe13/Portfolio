@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6343c30f.css",
-    "main.js": "/Portfolio/static/js/main.c18121f9.js",
+    "main.css": "/Portfolio/static/css/main.88678259.css",
+    "main.js": "/Portfolio/static/js/main.1ea9c1b5.js",
     "static/media/Eran Helvitz_CV.pdf": "/Portfolio/static/media/Eran Helvitz_CV.fc8eacc63b323913081b.pdf",
     "static/media/hero_img.jpg": "/Portfolio/static/media/hero_img.a0cdc55717afdfbf4f3d.jpg",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
@@ -19,11 +19,11 @@
     "static/media/icons-cursor-ai.svg": "/Portfolio/static/media/icons-cursor-ai.7c1008c52e1ff3e6ffbd42a0bcd2eac0.svg",
     "static/media/code-tech-dev-svgrepo-com.svg": "/Portfolio/static/media/code-tech-dev-svgrepo-com.7bd03c1f9f76c937d6d00708fa0cec46.svg",
     "index.html": "/Portfolio/index.html",
-    "main.6343c30f.css.map": "/Portfolio/static/css/main.6343c30f.css.map",
-    "main.c18121f9.js.map": "/Portfolio/static/js/main.c18121f9.js.map"
+    "main.88678259.css.map": "/Portfolio/static/css/main.88678259.css.map",
+    "main.1ea9c1b5.js.map": "/Portfolio/static/js/main.1ea9c1b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6343c30f.css",
-    "static/js/main.c18121f9.js"
+    "static/css/main.88678259.css",
+    "static/js/main.1ea9c1b5.js"
   ]
 }

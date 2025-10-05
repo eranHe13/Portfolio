@@ -58,8 +58,10 @@ function Home2() {
                 <a
                   href="https://github.com/eranHe13"
                   target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  rel="noopener noreferrer"
+                  className="icon-colour home-social-icons"
+                  style={{ cursor: 'pointer' }}
+                  
                 >
                   <AiFillGithub />
                 </a>

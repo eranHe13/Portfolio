@@ -3,16 +3,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
-  const formatTechStack = (description) => {
-    // Extract technologies from description
-    const techKeywords = ['FastAPI', 'Python', 'React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'SQLAlchemy', 'PostgreSQL', 'C++', 'SQL', 'MVC', 'JWT', 'OAuth2', 'RESTful API', 'Vercel', 'Fly.io', 'Neon'];
-    const foundTechs = techKeywords.filter(tech => 
-      description.toLowerCase().includes(tech.toLowerCase())
-    );
-    return foundTechs;
-  };
-
-  const techStack = formatTechStack(props.description);
+  const techStack = props.techStack || [];
 
   return (
     <div className="json-project-card">

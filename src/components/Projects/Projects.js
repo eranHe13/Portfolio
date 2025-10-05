@@ -30,36 +30,73 @@ function Projects() {
 
   const projects = [
     {
-      
       isBlog: false,
-      title: "AI Agent",
-      description: "An intelligent helper agent built with Telegram Bot API and LangChain framework. Features mission management, event tracking, and automated data summarization capabilities. The bot provides personalized assistance through natural language processing, helping users organize tasks, track events, and generate comprehensive summaries from various data sources. Built with Python, utilizing advanced AI/ML libraries for conversational AI and data processing.",
-      ghLink: "https://github.com/eranHe13/my-agent",
-      
-
+      title: "Productivity Agent",
+      description: "Boost your productivity with an all-in-one management system that helps you organize tasks, track your focus, and receive personalized AI coaching. Interact naturally through a REST API or Telegram bot, set daily goals, and stay motivated with intelligent reminders and contextual advice. Achieve more every day with seamless, AI-powered assistance tailored to your workflow.",
+      ghLink: "https://github.com/eranHe13/productivity-agent",
+      techStack: [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy", 
+        "LangChain",
+        "OpenAI GPT",
+        "Telegram Bot API",
+        "SQLite",
+        "Pydantic",
+        "Uvicorn"
+      ]
     },
     {
-      
       isBlog: false,
       title: "Artist Hub",
-      description: "Platform for managing artist profiles and bookings, with a focus on backend development. Built with FastAPI, Python, SQLAlchemy, PostgreSQL backend and Next.js, React, TypeScript, Tailwind CSS frontend. Deployed on Vercel and Fly.io, using Neon database. Features include Google OAuth2 with JWT security, RESTful API, calendar integration, and real-time chat.",
+      description: "Discover a streamlined platform for artists and event organizers to connect, manage profiles, and handle bookings with ease. Enjoy secure authentication, real-time chat, calendar integration, and a user-friendly interface that makes managing your creative business effortless. Artist Hub brings your professional network and opportunities together in one place.",
       ghLink: "https://github.com/eranHe13/artisthub",
-      siteLink: "https://artisthub.art/"
-
+      siteLink: "https://artisthub.art/",
+      techStack: [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Google OAuth2",
+        "JWT",
+        "Vercel",
+        "Fly.io",
+        "Neon"
+      ]
     },
     {
-      
       isBlog: false,
       title: "Fleet Simulation System",
-      description: "A C++ project utilizing the Model-View-Controller (MVC) pattern to simulate the dynamic interaction between vehicles and warehouses. The system applies object-oriented principles, custom user commands, and robust error handling to create a scalable simulation environment. Features include real-time vehicle movement and inventory management, demonstrating experience with logistics and optimization.",
-      ghLink: "https://github.com/eranHe13/fleet-simulation"
+      description: "Experience the power of simulation with a dynamic system that models the real-time interaction between vehicles and warehouses. Command your fleet, manage inventory, and optimize logistics in a robust, scalable environment. Perfect for exploring logistics strategies and understanding complex supply chain dynamics.",
+      ghLink: "https://github.com/eranHe13/fleet-simulation",
+      techStack: [
+        "C++",
+        "MVC Pattern",
+        "Object-Oriented Programming",
+        "Simulation",
+        "Logistics",
+        "Optimization"
+      ]
     },
     {
-      
       isBlog: false,
       title: "Wine Price Tracker",
-      description: "A web application built with Python (FastAPI), React.js, and SQL to monitor and alert users about wine price fluctuations. The backend employs multithreading for real-time data scraping from multiple retailers, while the frontend provides a responsive interface for managing preferences, setting price alerts, and receiving email notifications.",
-      ghLink: "https://github.com/eranHe13/wine-price-tracker"
+      description: "Stay ahead of the market with a smart web app that monitors wine prices and alerts you to the best deals. Get real-time updates, set personalized price alerts, and receive notifications directly to your inbox. The intuitive dashboard makes it easy to track your favorite wines and never miss a price drop.",
+      ghLink: "https://github.com/eranHe13/wine-price-tracker",
+      techStack: [
+        "Python",
+        "FastAPI",
+        "React.js",
+        "SQL",
+        "Multithreading",
+        "Web Scraping",
+        "Email Notifications",
+        "Price Tracking"
+      ]
     }
   ];
 
@@ -87,6 +124,7 @@ function Projects() {
                 description={project.description}
                 ghLink={project.ghLink}
                 siteLink={project.siteLink}
+                techStack={project.techStack}
               />
             </div>
           ))}

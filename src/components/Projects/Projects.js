@@ -31,6 +31,23 @@ function Projects() {
   const projects = [
     {
       isBlog: false,
+      title: "PromptFlow",
+      description: "Transform your AI prompt engineering workflow with a powerful CLI tool that helps you create, version, and systematically improve prompts through LLM-powered analysis. Build structured prompts from customizable templates, track performance with ratings and versions, convert natural language into production-ready prompts, and maintain full version history with SQLite persistence. Streamline your prompt development with intelligent improvement suggestions and comprehensive template management for coding, analysis, and agent tasks.",
+      ghLink: "https://github.com/eranHe13/PromptFlow",
+      techStack: [
+        "Python",
+        "Typer",
+        "SQLAlchemy",
+        "OpenAI GPT",
+        "Pydantic",
+        "SQLite",
+        "Rich",
+        "YAML"
+      ],
+
+    },
+    {
+      isBlog: false,
       title: "Productivity Agent",
       description: "Boost your productivity with an all-in-one management system that helps you organize tasks, track your focus, and receive personalized AI coaching. Interact naturally through a REST API or Telegram bot, set daily goals, and stay motivated with intelligent reminders and contextual advice. Achieve more every day with seamless, AI-powered assistance tailored to your workflow.",
       ghLink: "https://github.com/eranHe13/productivity-agent",
@@ -50,7 +67,7 @@ function Projects() {
       isBlog: false,
       title: "Artist Hub",
       description: "Discover a streamlined platform for artists and event organizers to connect, manage profiles, and handle bookings with ease. Enjoy secure authentication, real-time chat, calendar integration, and a user-friendly interface that makes managing your creative business effortless. Artist Hub brings your professional network and opportunities together in one place.",
-      ghLink: "https://github.com/eranHe13/artisthub",
+      // ghLink: "https://github.com/eranHe13/artisthub",
       siteLink: "https://artisthub.art/",
       techStack: [
         "Python",
@@ -72,7 +89,7 @@ function Projects() {
       isBlog: false,
       title: "Fleet Simulation System",
       description: "Experience the power of simulation with a dynamic system that models the real-time interaction between vehicles and warehouses. Command your fleet, manage inventory, and optimize logistics in a robust, scalable environment. Perfect for exploring logistics strategies and understanding complex supply chain dynamics.",
-      ghLink: "https://github.com/eranHe13/fleet-simulation",
+      ghLink: "https://github.com/eranHe13/Time-dependent-simulation-of-vehicles",
       techStack: [
         "C++",
         "MVC Pattern",
@@ -86,7 +103,7 @@ function Projects() {
       isBlog: false,
       title: "Wine Price Tracker",
       description: "Stay ahead of the market with a smart web app that monitors wine prices and alerts you to the best deals. Get real-time updates, set personalized price alerts, and receive notifications directly to your inbox. The intuitive dashboard makes it easy to track your favorite wines and never miss a price drop.",
-      ghLink: "https://github.com/eranHe13/wine-price-tracker",
+      ghLink: "https://github.com/eranHe13/wine-track-prices",
       techStack: [
         "Python",
         "FastAPI",
@@ -101,7 +118,8 @@ function Projects() {
   ];
 
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" id="projects">
+    
       <Particle />
       <Container>
         <h1 className="project-heading">

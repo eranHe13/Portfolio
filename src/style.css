@@ -12,6 +12,18 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  scroll-behavior: smooth;
+}
+
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.about-section,
+.project-section,
+.resume-section {
+  scroll-margin-top: 80px;
 }
 
 .purple {
@@ -527,6 +539,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  z-index: 1 !important;  /* Add this line */
 }
 
 .project-card {
@@ -1269,6 +1282,8 @@ button:focus {
   background: linear-gradient(90deg, #c770f0, #ff6b6b, #4ecdc4);
   opacity: 0;
   transition: opacity 0.3s ease;
+  pointer-events: none;
+
 }
 
 .json-project-card:hover::before {
@@ -1346,6 +1361,10 @@ button:focus {
   color: #9ecbff;
   transition: all 0.3s ease;
   margin-left: 1rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
 }
 
 .json-link:hover {
@@ -1401,8 +1420,5 @@ button:focus {
     align-items: flex-start;
   }
   
-  .json-link {
-    margin-left: 0;
-    margin-top: 0.5rem;
-  }
+
 }

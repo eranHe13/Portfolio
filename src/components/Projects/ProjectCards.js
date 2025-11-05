@@ -50,16 +50,17 @@ function ProjectCards(props) {
           <span className="json-bracket">{`{`}</span>
         </div>
 
-        <div className="json-line">
-          <span className="json-key">    github</span>
-          <span className="json-colon">:</span>
-          <a href={props.ghLink} target="_blank" rel="noopener noreferrer" className="json-link">
-            <BsGithub className="json-icon" />
-            <span className="json-string">"{props.isBlog ? "Blog" : "GitHub"}"</span>
-          </a>
-          <span className="json-comma">,</span>
-
-        </div>
+        {props.ghLink && (
+          <div className="json-line">
+            <span className="json-key">    github</span>
+            <span className="json-colon">:</span>
+            <a href={props.ghLink} target="_blank" rel="noopener noreferrer" className="json-link" style={{ cursor: 'pointer' }}>
+              <BsGithub className="json-icon" />
+              <span className="json-string">"{props.isBlog ? "Blog" : "GitHub"}"</span>
+            </a>
+            <span className="json-comma">,</span>
+          </div>
+        )}
         {props.siteLink && (
         <div className="json-line">
           <span className="json-key">    Website</span>
